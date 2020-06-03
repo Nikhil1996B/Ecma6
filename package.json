@@ -1,0 +1,48 @@
+{
+  "name": "ecma6",
+  "version": "1.0.0",
+  "description": "Ecma6 new features added - Modifications to ES5 (2009) - New features such as classes and inheritance, let and const, Bug fixes and patch fixes over the previous ECMA version , ECMA is the standard descriptions followed for scripting languages such as javaScript, AScript. New data structure introduction - Map, NewMap, iterators, generators, Prmoises.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "scripts": {
+    "build": "babel --preset 2015 src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil1996B/Ecma6.git"
+  },
+  "keywords": [
+    "Babel",
+    "ES6",
+    "NewMAP",
+    "Iterators",
+    "generators",
+    "Arrow",
+    "functions",
+    "Promises",
+    "let",
+    "variable",
+    "scope",
+    "-",
+    "babel",
+    "-",
+    "compatibility",
+    "--",
+    "transpile",
+    "to",
+    "modern",
+    "browsers"
+  ],
+  "author": "Nikhil Bhaskar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhil1996B/Ecma6/issues"
+  },
+  "homepage": "https://github.com/Nikhil1996B/Ecma6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
